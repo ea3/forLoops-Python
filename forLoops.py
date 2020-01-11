@@ -6,3 +6,16 @@ my_second_list = [1,2,3,4,5,6,7,8,9,10]
 for number in my_second_list:
 	if (number % 2 == 0 ): 			# check for even. 
 		print(number)				#Prints multiple of 2. 
+	else:
+		print('Not an even number: {}'.format(number))
+list_sum = 0
+
+for number in my_second_list:
+	list_sum = list_sum + number
+print(list_sum)
+
+myString = 'Hello World, My name is Emilio!'
+
+for letter in myString:
+	print(letter)
+
