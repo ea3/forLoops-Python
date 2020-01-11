@@ -19,3 +19,53 @@ myString = 'Hello World, My name is Emilio!'
 for letter in myString:
 	print(letter)
 
+tup = (1,2,3)
+
+for item in tup:
+	print (item)
+
+	#tuple unpacking
+
+my_third_list= [(1,2),(3,4), (5,6), (7,8)]
+print(len(my_third_list))
+
+
+for (a,b) in my_third_list:
+	print(a)
+	print(b)
+
+my_last_list = [(1,2,3),(4,5,6),(7,8,9)]
+for a,b,c in my_last_list:
+	print (a)
+	print(b)
+
+
+
+
+
+print('##############################')
+dictionary = {'k1':1, 'k2':2, 'k3':3}
+
+for value in dictionary.values():
+	print(value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
